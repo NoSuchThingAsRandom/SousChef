@@ -4,9 +4,10 @@ import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import css from 'rollup-plugin-css-only';
+import {sveltePreprocess} from "svelte-preprocess/dist/autoProcess";
 
 const production = !process.env.ROLLUP_WATCH;
-
+const svelteConfig = require('./svelte.config.js');  // it has to be a CommonJS import
 function serve() {
 	let server;
 
@@ -38,6 +39,8 @@ export default {
 	},
 	plugins: [
 		svelte({
+			svelteConfig,
+			preprocess:sveltePreprocess({}),
 			compilerOptions: {
 				// enable run-time checks when not in production
 				dev: !production

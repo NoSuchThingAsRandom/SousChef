@@ -1,0 +1,162 @@
+[
+  {
+    "quantity": "1",
+    "pos_item_id": "1",
+    "inventory_class_id": "3",
+    "sales_category_id": "17",
+    "origin_pos_item_id": "545",
+    "code": "13000",
+    "name": "Classic Burger",
+    "course_name": "Mains",
+    "price": "5.700",
+    "tax": "0.00",
+    "calc_values": {
+      "unit_gross": 5.7,
+      "unit_net": "5.70",
+      "unit_tax": "0.00",
+      "sub_gross": "5.7",
+      "sub_net": "5.70",
+      "sub_tax": "0.00"
+    }
+
+  {
+    "quantity": "1",
+    "pos_item_id": "1",
+    "inventory_class_id": "3",
+    "sales_category_id": "17",
+    "origin_pos_item_id": "545",
+    "code": "13000",
+    "name": "Classic Burger",
+    "course_name": "Mains",
+    "price": "5.700",
+    "tax": "0.00",
+    "calc_values": {
+      "unit_gross": 5.7,
+      "unit_net": "5.70",
+      "unit_tax": "0.00",
+      "sub_gross": "5.7",
+      "sub_net": "5.70",
+      "sub_tax": "0.00"
+    }
+  },
+  {
+    "quantity": "1",
+    "pos_item_id": "2",
+    "inventory_class_id": "3",
+    "sales_category_id": "17",
+    "origin_pos_item_id": "546",
+    "code": "13001",
+    "name": "Classic Cheese Burger",
+    "course_name": "Mains",
+    "price": "6.200",
+    "tax": "0.00",
+    "calc_values": {
+      "unit_gross": 6.2,
+      "unit_net": "6.20",
+      "unit_tax": "0.00",
+      "sub_gross": "6.2",
+      "sub_net": "6.20",
+      "sub_tax": "0.00"
+    }
+  },
+  {
+    "quantity": "1",
+    "pos_item_id": "3",
+    "inventory_class_id": "3",
+    "sales_category_id": "17",
+    "origin_pos_item_id": "547",
+    "code": "13002",
+    "name": "Classic Cheese Bacon Burger",
+    "course_name": "Mains",
+    "price": "7.200",
+    "tax": "0.00",
+    "calc_values": {
+      "unit_gross": 7.2,
+      "unit_net": "7.20",
+      "unit_tax": "0.00",
+      "sub_gross": "7.2",
+      "sub_net": "7.20",
+      "sub_tax": "0.00"
+    }
+  },
+  {
+    "quantity": "1",
+    "pos_item_id": "4",
+    "inventory_class_id": "3",
+    "sales_category_id": "17",
+    "origin_pos_item_id": "548",
+    "code": "13003",
+    "name": "Cajun Chicken Burger",
+    "course_name": "Mains",
+    "price": "7.250",
+    "tax": "0.00",
+    "calc_values": {
+      "unit_gross": 7.25,
+      "unit_net": "7.25",
+      "unit_tax": "0.00",
+      "sub_gross": "7.25",
+      "sub_net": "7.25",
+      "sub_tax": "0.00"
+    }
+  },
+  {
+    "quantity": "1",
+    "pos_item_id": "5",
+    "inventory_class_id": "3",
+    "sales_category_id": "17",
+    "origin_pos_item_id": "543",
+    "code": "13004",
+    "name": "Classic Vegan Burger",
+    "course_name": "Mains",
+    "price": "7.750",
+    "tax": "0.00",
+    "calc_values": {
+      "unit_gross": 7.75,
+      "unit_net": "7.75",
+      "unit_tax": "0.00",
+      "sub_gross": "7.75",
+      "sub_net": "7.75",
+      "sub_tax": "0.00"
+    }
+  },
+  {
+    "quantity": "1",
+    "pos_item_id": "6",
+    "inventory_class_id": "3",
+    "sales_category_id": "17",
+    "origin_pos_item_id": "544",
+    "code": "13005",
+    "name": "Classic Vegan Cheese Burger",
+    "course_name": "Mains",
+    "price": "8.250",
+    "tax": "0.00",
+    "calc_values": {
+      "unit_gross": 8.25,
+      "unit_net": "8.25",
+      "unit_tax": "0.00",
+      "sub_gross": "8.25",
+      "sub_net": "8.25",
+      "sub_tax": "0.00"
+    }
+  },
+  {
+    "quantity": "1",
+    "pos_item_id": "7",
+    "inventory_class_id": "3",
+    "sales_category_id": "18",
+    "origin_pos_item_id": "526",
+    "code": "13008",
+    "name": "12\" Margherita Pizza",
+    "course_name": "Pizzas",
+    "price": "7.000",
+    "tax": "0.00",
+    "calc_values": {
+      "unit_gross": 7,
+      "unit_net": "7.00",
+      "unit_tax": "0.00",
+      "sub_gross": "7",
+      "sub_net": "7.00",
+      "sub_tax": "0.00"
+    }
+  }
+]
