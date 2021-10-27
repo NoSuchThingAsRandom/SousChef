@@ -79,9 +79,16 @@
         console.log(menu);
     });
 
-    function execute() {
+    async function execute() {
         console.log("TODO Submit basket!")
         console.log(basket);
+        console.log("Making request");
+        const response = await fetch("http://127.0.0.1:5000/execute_order", {
+            method: "POST",
+            headers: {"Accept": "application/json", "Content-Type": "application/json"},
+            body: JSON.stringify(basket)
+        });
+        console.log(response);
     }
 
     function getRndInteger(min, max) {
@@ -151,11 +158,11 @@
         menu["Search"]["Results"] = items;
         menu = menu;
         console.log(menu);
-        showSearch=true;
+        showSearch = true;
     }
 
-    $:if(oldSelectedCategory!==selectedCategory){
-        showSearch=false;
+    $:if (oldSelectedCategory !== selectedCategory) {
+        showSearch = false;
     }
 </script>
 <Header bind:menuCategories={menuCategories} bind:selectedCategory="{selectedCategory}" on:execute={execute}
@@ -213,7 +220,7 @@
         {#each Object.values(basket) as basketItem}
             <Card>
                 <div style="display: flex">
-                    <H2>{basketItem["name"]} (ID: {basketItem["id"]}) - Total:
+                    <H2>{basketItem["quantity"]} X {basketItem["name"]} (ID: {basketItem["id"]}) - Total:
                         £{parseFloat(basketItem["price"]).toFixed(2)}</H2>
                     <Button style="color: red;margin-left: auto" on:click={()=>{deleteFromBasket(basketItem)}}>X
                     </Button>
